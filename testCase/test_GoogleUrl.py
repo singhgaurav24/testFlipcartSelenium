@@ -10,4 +10,4 @@ options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 driver.get("https://www.google.com/")
 element_text = driver.page_source
-print(element_text)
+assert print(element_text)
