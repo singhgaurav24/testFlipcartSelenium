@@ -11,4 +11,4 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://www.google.com/")
 element_text = driver.page_source
 print(element_text)
-assert 2+4 = 6
+assert 2+4 == 6
